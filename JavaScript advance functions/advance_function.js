@@ -1,3 +1,4 @@
+/*
 function greeting() {
   console.log("hello");
 }
@@ -34,3 +35,17 @@ rum(function(){
     console.log("hello4")
     //callback function
 });
+*/
+
+setTimeout(function(){
+  console.log("timeout");
+  console.log("timeous2")
+}, 3000);
+
+console.log("next line");
+
+setInterval(function(){
+  console.log("interval")
+}, 3000);
+
+console.log("next line2")
