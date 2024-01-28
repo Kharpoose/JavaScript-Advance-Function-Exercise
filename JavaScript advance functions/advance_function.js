@@ -36,7 +36,7 @@ rum(function(){
     //callback function
 });
 */
-
+/*
 setTimeout(function(){
   console.log("timeout");
   console.log("timeous2")
@@ -49,3 +49,16 @@ setInterval(function(){
 }, 3000);
 
 console.log("next line2")
+
+*/
+
+["make dinner", "watch youtube", "wash dishes"].forEach(function (
+  value,
+  index
+) {
+  if (value === "wash dishes") {
+    return;
+  }
+  console.log(value);
+  console.log(index);
+});
